@@ -1,0 +1,236 @@
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+body{
+      background-color: black;
+}
+.section1{
+      width: 100%;
+      height: 100vh;
+      background-image: url("..//profile\ yk/home_sec.jpg");
+}
+nav{
+      color: aliceblue;
+      margin: 10px;
+      font-weight: bold;
+      font-size: 55px;
+}
+nav span{
+      color: rgb(215, 16, 72);
+}
+ul{
+      display: flex;
+      justify-content: space-evenly;
+      padding-left: 30%;
+      margin: 20px;
+
+}
+ul a {
+      width: 20px;
+     
+}
+ul span{
+       background-color: rgb(215, 16, 72);
+       color: aliceblue;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 15px;
+      border-radius: 55px;
+}
+ul span:hover{
+      padding: 19px;
+}
+.name{
+      color: aliceblue;
+      justify-content: center;
+      text-align: center;
+      padding: 10%;
+      padding-right: 65%;
+      font-family:'Times New Roman', Times, serif
+}
+h5{
+      font-size: 25px;
+      padding: 15px;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+      margin-bottom: 7px;
+      margin-top: 7px;
+}
+h1{
+      font-size: 50px;
+      padding-left: 50%;
+}
+h1 span{
+      color:rgb(215, 16, 72);
+}
+button{
+      color: aliceblue;
+      background-color:rgb(215, 16, 72);
+      padding: 5px;
+      border-radius: 15px;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+}
+button:hover{
+      padding: 8px;
+}
+.section2{
+      width: 100%;
+      height: 100vh;
+      color: aliceblue;
+      background-color: black;
+}
+.section2 img{
+      height: 50%;
+      width: 450px;
+      padding-top: 10%;
+
+}
+.about-text{
+      width: 550px;
+}
+.main{
+      width: 1130px;
+      max-width: 95%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+.about-text h2,h3,p{
+      justify-content:center;
+      text-align: center;
+      height: 7px;
+      padding-bottom: 25%;
+
+}
+.about-text h2,h3{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 50px;
+      padding-bottom: 4%;
+      padding-bottom: 13%;
+      
+}
+.about-text h3 span{
+      color:rgb(215, 16, 72);
+}
+.about-text p{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+}
+.section3{
+      width: 100%;
+      height: 100vh;
+      background-color: black;
+      padding-top: 4%;
+      padding-right: 20%;
+}
+
+.frameset{
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 4%;
+      padding-left: 25%;
+}
+.projects{
+      width: 30%;
+      height: 50vh;
+      background-color:rgb(215, 16, 72); 
+      border-radius: 60px;
+      margin: 10px;
+      transition: 3s;
+}
+.projects:hover{
+     margin: 50px;
+}
+.projects h4{
+      justify-content: center;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+      font-size:xx-large;
+      padding-top: 5%;
+}
+.skills{
+      width:30%;
+      height: 50vh;
+      background-color: rgb(215, 16, 72);
+      border-radius: 60px;
+      margin: 10px;
+      transition: 3s;
+}
+.skills:hover{
+      margin: 50px;
+}
+.skills h4{
+      justify-content: center;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+      font-size:xx-large;
+      padding-top: 5%;
+}
+.education{
+      width: 30%;
+      height: 50vh;
+      background-color: rgb(215, 16, 72);
+      border-radius: 60px;
+      margin: 10px;
+      transition: 2s;
+}
+.education:hover{
+      margin: 50px;
+}
+.education h4{
+      justify-content: center;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+      font-size:xx-large;
+      padding-top: 5%;
+}
+.section3 span{
+      color:rgb(215, 16, 72);
+}
+.section3 h1{
+      padding-top: 5%;
+      padding:50px;
+      padding-left: 45%;
+}
+.section4{
+     width: 100%;
+     height: 100vh;
+     background-color: black;
+     display: flex;
+     justify-content: center;
+     text-align: center;                                  
+}
+.section4 h3{
+      padding-top: 7%;
+      padding-left: 30%;
+      padding-right: 30%;   
+}
+.section4 span{
+      color: rgb(215, 16, 72);
+}
+.section4 p{
+      padding-top: 4%;
+      font-size: 20px;
+}
+.section4 input{
+      padding: 10px;
+      border: 30%;
+      border-color: darkturquoise;
+}
+.section4 #message{
+      padding-bottom: 35px;
+}
+.section4 button{
+      background-color:rgb(215, 16, 72);
+      color: aliceblue;
+      size: 30px;
+}
+
+     
